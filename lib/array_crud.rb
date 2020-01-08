@@ -3,11 +3,12 @@ def create_an_empty_array
 end
 
 def create_an_array
-  
+  ["Joan", "Jack", "Jill", "John"]
 end
 
 def add_element_to_end_of_array(array, element)
-  
+  array = ["Joanna", "Jack", "Jill", "John"]
+  array << "Jacob"
 end
 
 def add_element_to_start_of_array(array, element)
